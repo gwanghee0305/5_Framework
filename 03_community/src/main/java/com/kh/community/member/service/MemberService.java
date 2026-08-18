@@ -19,7 +19,7 @@ public interface MemberService {
 	void join(MemberDTO member, MultipartFile profileImage) throws IOException;
 		
 	// 아이디 중복 체크
-	boolean isMemeberIdCheck(String memberId);
+	boolean isMemberIdCheck(String memberId);
 	
 	// 로그인
 	MemberDTO login(String memberId, String memberPwd);
